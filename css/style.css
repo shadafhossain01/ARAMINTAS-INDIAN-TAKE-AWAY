@@ -16,7 +16,7 @@
 }
 
 body{
-    background-image: url(../image/bodybackground.jpg);
+    background: url(../image/bodybackground.jpg);
     scroll-behavior: smooth;
     background-attachment: fixed;
     font-family: var(--font-mont);
@@ -92,7 +92,7 @@ list-style-type: none;
 
 nav{
     height: 131px;
-    background-image: url(../image/bodybackground.jpg);
+    background: url(../image/bodybackground.jpg);
     background-position: center;
     background-size: contain;
 }
