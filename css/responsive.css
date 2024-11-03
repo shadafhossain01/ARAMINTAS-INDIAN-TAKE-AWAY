@@ -1,8 +1,6 @@
 /* extra small devicw start */
 @media (max-width: 575.99px) {
-    body{
-        padding: 0 12px;
-    }
+
     .middle-header{
         display:none !important;
     }
@@ -36,11 +34,20 @@ color: #E3AA11;
   font-size: 23px;
 }
 
-#welcome{
+#welcome ,#offer,footer{
     text-align: center;
+    padding: 0 12px;
 }
 .offer-snd{
     margin-top: 70px;
+}
+
+.cuisine{
+    text-align: center;
+}
+.fixedIcon {
+    bottom: 4px;
+    right: 7px;
 }
 
 }
@@ -48,11 +55,7 @@ color: #E3AA11;
   
   /* small device start */
   @media (min-width: 576px) and (max-width: 767.99px) {
-    body{
-        padding: 0 12px;
-    }
-
-    .middle-header{
+  .middle-header{
         display:none !important;
     }
 
@@ -78,22 +81,26 @@ color: #E3AA11;
     font-size: 69px;
 }
 
-#welcome{
+#welcome ,#offer,footer{
     text-align: center;
+    padding: 0 12px;
 }
 
 .offer-snd{
     margin-top: 70px;
 }
-
+.cuisine{
+    text-align: center;
+}
+.fixedIcon {
+    bottom: 58px;
+    right: 18px;
+}
 
   }
 
   /* medioum device start */
   @media (min-width: 768px) and (max-width: 991.99px) {
-    body{
-        padding: 0 12px;
-    }
 
     .middle-header{
         display:none !important;
@@ -117,12 +124,21 @@ color: #E3AA11;
 color: #E3AA11;
 }
 
-#welcome{
+#welcome ,#offer,footer{
     text-align: center;
+    padding: 0 12px;
 }
 
 .offer-snd{
     margin-top: 70px;
+}
+.cuisine{
+    text-align: center;
+}
+
+.fixedIcon {
+    bottom: 20px;
+    right: 25px;
 }
 
   }
@@ -132,11 +148,15 @@ color: #E3AA11;
     .middle-header{
     display:none !important;
 }
+footer{
+    text-align: center;
+}
+.fixedIcon {
+    bottom: 22px;
+    right: 38px;
+}
 
   }
-  /* large device end */
-  @media (min-width: 1200px) and (max-width: 1399.98px) {
-
-  }
+ 
 
   

@@ -22,6 +22,10 @@ body{
     font-family: var(--font-mont);
 }
 
+::-webkit-scrollbar{
+    width: 0px;
+}
+
 a{
 text-decoration: none;
 }
@@ -119,7 +123,7 @@ nav .btn{
    font-weight: 500;
    animation: upDown 1000ms ease-in-out infinite alternate;
    -webkit-animation: upDown 1000ms ease-in-out infinite alternate;
-   margin-top: 19px;
+   margin-top: 15px;
 }
 
 @keyframes upDown {
@@ -259,6 +263,10 @@ font-family: var(--font-caveat);
 
 .offer-snd{
     margin-top: 0px;
+    background: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url(/image/menu-02.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .offer-left:hover{
@@ -268,3 +276,149 @@ font-family: var(--font-caveat);
     -ms-transform: rotate(-4deg) scale(0.9);
     -o-transform: rotate(-4deg) scale(0.9);
 }
+
+/* cuisine CSS */
+
+.cuisine{
+    height: 600px;
+    position: relative;
+}
+
+.cuisine video{
+object-fit:cover;
+width: 100%;
+height: 100%;
+}
+
+.cuisine-content{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    background: rgba(0, 0, 0, 0.395);
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.cuisine-content h2{    
+font-family: var(--font-caveat);
+font-weight: 600;
+font-size: 80px;
+line-height: 86px;
+color: var(--main-color);
+}
+
+.cuisine-content p{    
+font-weight: 500;
+font-size: 30px;
+color: var(--main-color);
+letter-spacing: 10px;
+}
+
+.cuisine .btn{
+        color: #000;
+        font-weight: 500;
+        animation: upDown 1000ms ease-in-out infinite alternate;
+        -webkit-animation: upDown 1000ms ease-in-out infinite alternate;
+        margin-top: 19px;
+}
+
+/* Footer CSS */
+
+footer{
+    background: linear-gradient(rgba(0, 0, 0, 0.918), rgba(0, 0, 0, 0.88)), url(/image/footer-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: fit-content;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    width: 100%;
+    color: #fff;
+}
+
+footer h3{
+    font-size: 52px;
+    line-height: 64px;
+    font-weight: 500;
+    font-family: var(--font-caveat);
+    color: #E3AA11;
+}
+
+footer .footer-top p{
+    font-weight: 500;
+    font-size: 20px;
+    color:rgb(248, 249, 250);
+    line-height: 18px;
+}
+
+.foot-logo{
+    width: 200px;
+}
+
+.halal-logo{
+    width: 70px;
+}
+
+.footer-top a{
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer-top a:hover i{
+    color: var(--main-color);
+}
+
+.footer-bottom{
+    border-top: 1px solid #555555;
+    text-align: center;
+}
+
+.bottom-list a{
+    color: rgb(185, 185, 185);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    border-right: 2px solid var(--main-color );
+    padding: 0px 10px;
+}
+.bottom-list a:last-child{
+    border: none;
+}
+
+.footer-bottom p{
+    color: rgb(185, 185, 185);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.fixedIcon{
+    background: var(--main-color);
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 8px 15px;
+    position: fixed;
+    bottom: 38px;
+    right: 78px;
+}
+
+.footer-bottom p{
+    margin-bottom: 0px;
+    padding-bottom: 16px;
+}
+
+
+
