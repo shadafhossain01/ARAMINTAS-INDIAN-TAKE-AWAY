@@ -207,3 +207,64 @@ color: #fff;
     line-height: 24px;
     font-weight: 400;
 }
+
+/* offer CSS */
+
+#offer h2{
+    color: var(--main-color);
+    font-size: 70px;
+    font-weight: 500;
+    font-family: var(--font-caveat);
+}
+#offer p{
+    color: rgb(185, 185, 185);
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.offer-left{
+    margin-top: 100px;
+    height: 500px;
+    background: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url(/image/menu-01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    cursor: pointer;
+}
+
+.offer-left h4{
+font-size: 53px;
+font-weight: 500;
+color: var(--main-color);
+line-height: 64px;
+font-family: var(--font-caveat);
+}
+
+.offer-left p{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff !important;
+}
+
+.offer-snd{
+    margin-top: 0px;
+}
+
+.offer-left:hover{
+    transform: rotate(-4deg) scale(0.9);
+    -webkit-transform: rotate(-4deg) scale(0.9);
+    -moz-transform: rotate(-4deg) scale(0.9);
+    -ms-transform: rotate(-4deg) scale(0.9);
+    -o-transform: rotate(-4deg) scale(0.9);
+}
