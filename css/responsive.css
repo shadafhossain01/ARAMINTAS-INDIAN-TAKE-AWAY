@@ -26,6 +26,15 @@ color: #E3AA11;
     height: 70px;
 }
 
+.banner-content h2{
+    text-align: center;
+}
+.banner-content p {
+  font-size: 23px;
+}
+
+
+
 }
   
   
@@ -52,6 +61,11 @@ color: #E3AA11;
 .navbar-toggler-icon i {
 color: #E3AA11;
 }
+
+.banner-content h2 {
+    font-size: 69px;
+}
+
 
   }
 

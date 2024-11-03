@@ -104,7 +104,6 @@ nav img{
     color: #fff;
     font-weight: 500;
 }
-
 .navbar-nav li a:hover{
     color: var(--main-color);   
 }
@@ -132,3 +131,48 @@ nav .btn{
     }
 }
 
+/* banner CSS */
+
+#banner{
+    height: 90vh;
+    position: relative;
+}
+
+#banner video{
+object-fit:cover;
+width: 100%;
+height: 100%;
+}
+
+.banner-content{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    background: rgba(0, 0, 0, 0.395);
+    width: 100%;
+    height: 100%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.banner-content h2{    
+font-family: var(--font-caveat);
+font-weight: 600;
+font-size: 80px;
+line-height: 86px;
+color: var(--main-color);
+}
+
+.banner-content p{    
+font-weight: 500;
+font-size: 28px;
+color: #fff;
+}
