@@ -11,6 +11,10 @@
     --font-caveat:"Caveat", cursive;
 }
 
+.primaryColor{
+    color: #E3AA11;
+}
+
 body{
     background-image: url(/image/bodybackground.jpg);
     scroll-behavior: smooth;
@@ -38,3 +42,93 @@ list-style-type: none;
     color: var(--main-color);
     background: transparent;
 }
+
+/*  header Css */
+
+.top-header{
+    border-bottom: 1px dashed var(--main-color);
+    height: 43px;
+    background-color: black;
+}
+
+.top-header p{
+    font-family: var(--font-caveat);
+    font-weight: 500;
+    font-size: 24px;
+    color: var(--main-color);
+}
+
+.middle-header{
+    background-color: #212529;
+}
+
+.middle-header span{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.middle-header .primaryColor{
+    color: #E3AA11;
+    font-weight: bold;
+}
+.middle-right span{
+    font-weight: bold;
+}
+
+.middle-right a{
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+}
+
+.middle-right a:hover i{
+    color: #E3AA11;
+}
+
+nav{
+    height: 131px;
+    background-image: url(/image/bodybackground.jpg);
+    background-position: center;
+    background-size: contain;
+}
+
+nav img{
+    width: 100px;
+}
+.navbar-nav{
+    gap: 20px;
+}
+.navbar-nav li a {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.navbar-nav li a:hover{
+    color: var(--main-color);   
+}
+
+.navbar-nav .nav-item .active{
+    font-size: 20px;
+    color: var(--main-color);
+    font-weight: 500;
+}
+
+nav .btn{
+   color: #000;
+   font-weight: 500;
+   animation: upDown 1000ms ease-in-out infinite alternate;
+   -webkit-animation: upDown 1000ms ease-in-out infinite alternate;
+   margin-top: 19px;
+}
+
+@keyframes upDown {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(2deg) scale(0.9);
+    }
+}
+
