@@ -176,3 +176,34 @@ font-weight: 500;
 font-size: 28px;
 color: #fff;
 }
+
+
+/* welcome CSS */
+
+#welcome img{
+    box-shadow: 4px 4px 3px var(--main-color);
+}
+
+#welcome h2{
+    color: #E3AA11;
+    font-size: 45px;
+    line-height: 54px;
+    font-weight: 500;
+    font-family: var(--font-caveat);
+    margin-bottom: 16px;
+}
+
+#welcome h3{
+    color: #E3AA11;
+    font-size: 53px;
+    line-height: 54px;
+    font-weight: 500;
+    font-family: var(--font-caveat);
+}
+
+#welcome p{
+    color: rgb(185, 185, 185);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+}
