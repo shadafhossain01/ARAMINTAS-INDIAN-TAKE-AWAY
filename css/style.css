@@ -16,7 +16,7 @@
 }
 
 body{
-    background-image: url(image/bodybackground.jpg);
+    background-image: url(/image/bodybackground.jpg);
     scroll-behavior: smooth;
     background-attachment: fixed;
     font-family: var(--font-mont);
@@ -92,7 +92,7 @@ list-style-type: none;
 
 nav{
     height: 131px;
-    background-image: url(image/bodybackground.jpg);
+    background-image: url(/image/bodybackground.jpg);
     background-position: center;
     background-size: contain;
 }
@@ -230,7 +230,7 @@ color: #fff;
 .offer-left{
     margin-top: 100px;
     height: 500px;
-    background: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url(image/menu-01.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url(/image/menu-01.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -263,7 +263,7 @@ font-family: var(--font-caveat);
 
 .offer-snd{
     margin-top: 0px;
-    background: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url(image/menu-02.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url(/image/menu-02.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -335,7 +335,7 @@ letter-spacing: 10px;
 /* Footer CSS */
 
 footer{
-    background: linear-gradient(rgba(0, 0, 0, 0.918), rgba(0, 0, 0, 0.88)), url(image/footer-background.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.918), rgba(0, 0, 0, 0.88)), url(/image/footer-background.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
