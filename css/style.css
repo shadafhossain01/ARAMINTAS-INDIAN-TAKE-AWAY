@@ -651,3 +651,8 @@ right: -13px;
 textarea{
     resize: none;
 }
+
+.contact-sec .btn , #welcome .btn ,.offer-left .btn {
+    animation: none;
+    -webkit-animation: none;
+}
