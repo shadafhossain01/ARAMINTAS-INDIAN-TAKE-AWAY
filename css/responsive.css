@@ -38,6 +38,7 @@ color: #E3AA11;
     text-align: center;
     padding: 0 11px;
 }
+
 .offer-snd{
     margin-top: 70px;
 }
@@ -66,6 +67,13 @@ color: #E3AA11;
 
 .first-menu{
     margin-top: 120px;
+}
+.gallery{
+    height: 250px;
+    width: 100%;
+}
+.gallery-items{
+    grid-template-columns: repeat(1,1fr);
 }
 
 }
@@ -132,6 +140,9 @@ color: #E3AA11;
 .first-menu{
     margin-top: 120px;
 }
+.gallery-items{
+    grid-template-columns: repeat(1,1fr);
+}
 
 
   }
@@ -192,6 +203,10 @@ color: #E3AA11;
 .menu-showcase h3 {
     font-size: 64px;
     margin-top: 40px;
+}
+
+.gallery-items{
+    grid-template-columns: repeat(2,1fr);
 }
 
   }

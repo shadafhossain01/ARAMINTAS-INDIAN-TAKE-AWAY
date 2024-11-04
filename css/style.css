@@ -47,6 +47,34 @@ list-style-type: none;
     background: transparent;
 }
 
+nav .btn{
+    color: #000;
+    font-weight: 500;
+    animation: upDown 1000ms ease-in-out infinite alternate;
+    -webkit-animation: upDown 1000ms ease-in-out infinite alternate;
+    margin-top: 15px;
+ }
+ 
+ @keyframes upDown {
+     from{
+         transform: rotate(0deg);
+     }
+     to{
+         transform: rotate(2deg) scale(0.9);
+     }
+ }
+
+ .offer-left:hover , .menu-item:hover , .gallery:hover{
+    transform: rotate(-4deg) scale(0.9);
+    -webkit-transform: rotate(-4deg) scale(0.9);
+    -moz-transform: rotate(-4deg) scale(0.9);
+    -ms-transform: rotate(-4deg) scale(0.9);
+    -o-transform: rotate(-4deg) scale(0.9);
+}
+#offer .primaryColor , #all-menu .primaryColor{
+    font-weight: bold;
+}
+
 /*  header Css */
 
 .top-header{
@@ -116,23 +144,6 @@ nav img{
     font-size: 20px;
     color: var(--main-color);
     font-weight: 500;
-}
-
-nav .btn{
-   color: #000;
-   font-weight: 500;
-   animation: upDown 1000ms ease-in-out infinite alternate;
-   -webkit-animation: upDown 1000ms ease-in-out infinite alternate;
-   margin-top: 15px;
-}
-
-@keyframes upDown {
-    from{
-        transform: rotate(0deg);
-    }
-    to{
-        transform: rotate(2deg) scale(0.9);
-    }
 }
 
 /* banner CSS */
@@ -270,16 +281,7 @@ font-family: var(--font-caveat);
     background-size: cover;
 }
 
-.offer-left:hover , .menu-item:hover{
-    transform: rotate(-4deg) scale(0.9);
-    -webkit-transform: rotate(-4deg) scale(0.9);
-    -moz-transform: rotate(-4deg) scale(0.9);
-    -ms-transform: rotate(-4deg) scale(0.9);
-    -o-transform: rotate(-4deg) scale(0.9);
-}
-#offer .primaryColor , #all-menu .primaryColor{
-    font-weight: bold;
-}
+
 
 /* cuisine CSS */
 
@@ -475,4 +477,78 @@ footer .footer-top p{
     font-family: var(--font-caveat);
     color: #E3AA11;
     margin-bottom: 16px;
+}
+
+
+/*  Gallery pages CSS */
+.gallery{
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    cursor: pointer;
+    height: 380px;
+}
+.gallery-items{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-between;
+    gap: 40px;
+    margin: 70px 0;
+}
+
+#all-menu .gallery-items .gallery:first-child{
+    background: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url(../image/gallery1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#all-menu .gallery-items .gallery:nth-child(2){
+    background: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url(../image/gallery2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#all-menu .gallery-items .gallery:nth-child(3){
+    background: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url(../image/gallery3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#all-menu .gallery-items .gallery:nth-child(4){
+    background: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url(../image/gallery4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#all-menu .gallery-items .gallery:nth-child(5){
+    background: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url(../image/gallery5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#all-menu .gallery-items .gallery:nth-child(6){
+    background: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url(../image/gallery6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#all-menu .gallery-items .gallery:nth-child(7){
+    background: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url(../image/gallery7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#all-menu .gallery-items .gallery:nth-child(8){
+    background: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url(../image/gallery8.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#all-menu .gallery-items .gallery:nth-child(9){
+    background: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url(../image/desertitem.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
