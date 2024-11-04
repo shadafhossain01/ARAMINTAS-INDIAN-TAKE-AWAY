@@ -34,9 +34,9 @@ color: #E3AA11;
   font-size: 23px;
 }
 
-#welcome ,#offer,footer{
+#welcome ,#offer,footer ,#all-menu , .menu-showcase{
     text-align: center;
-    padding: 0 12px;
+    padding: 0 11px;
 }
 .offer-snd{
     margin-top: 70px;
@@ -48,6 +48,24 @@ color: #E3AA11;
 .fixedIcon {
     bottom: 4px;
     right: 7px;
+}
+
+.menu-item {
+    margin: 0px;
+    width: 100%;
+}
+
+#all-menu .row {
+    gap: 40px;
+}
+
+.menu-showcase h3 {
+    font-size: 64px;
+    margin-top: 40px;
+}
+
+.first-menu{
+    margin-top: 120px;
 }
 
 }
@@ -81,9 +99,9 @@ color: #E3AA11;
     font-size: 69px;
 }
 
-#welcome ,#offer,footer{
+#welcome ,#offer,footer ,#all-menu , .menu-showcase{
     text-align: center;
-    padding: 0 12px;
+    padding: 0 11px;
 }
 
 .offer-snd{
@@ -96,6 +114,25 @@ color: #E3AA11;
     bottom: 58px;
     right: 18px;
 }
+
+.menu-item {
+    margin: 0px;
+    width: 100%;
+}
+
+#all-menu .row {
+    gap: 40px;
+}
+
+.menu-showcase h3 {
+    font-size: 64px;
+    margin-top: 40px;
+}
+
+.first-menu{
+    margin-top: 120px;
+}
+
 
   }
 
@@ -124,9 +161,9 @@ color: #E3AA11;
 color: #E3AA11;
 }
 
-#welcome ,#offer,footer{
+#welcome ,#offer,footer ,#all-menu , .menu-showcase{
     text-align: center;
-    padding: 0 12px;
+    padding: 0 11px;
 }
 
 .offer-snd{
@@ -139,6 +176,22 @@ color: #E3AA11;
 .fixedIcon {
     bottom: 20px;
     right: 25px;
+}
+
+.menu-item {
+    margin: 0px;
+    width: 100%;
+}
+
+#all-menu .row {
+    gap: 40px;
+}
+.first-menu{
+    margin-top: 120px;
+}
+.menu-showcase h3 {
+    font-size: 64px;
+    margin-top: 40px;
 }
 
   }
@@ -154,6 +207,20 @@ footer{
 .fixedIcon {
     bottom: 22px;
     right: 38px;
+}
+.menu-item {
+    margin: 0px;
+    width: 100%;
+}
+#all-menu .row {
+    gap: 40px;
+}
+.first-menu{
+    margin-top: 120px;
+}
+.menu-showcase h3 {
+    font-size: 64px;
+    margin-top: 40px;
 }
 
   }

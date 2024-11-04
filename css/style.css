@@ -186,6 +186,7 @@ color: #fff;
 
 #welcome img{
     box-shadow: 4px 4px 3px var(--main-color);
+    border: 1px solid var(--main-color);
 }
 
 #welcome h2{
@@ -205,7 +206,7 @@ color: #fff;
     font-family: var(--font-caveat);
 }
 
-#welcome p{
+#welcome p , .menu-showcase p{
     color: rgb(185, 185, 185);
     font-size: 16px;
     line-height: 24px;
@@ -214,13 +215,13 @@ color: #fff;
 
 /* offer CSS */
 
-#offer h2{
+#offer h2, #all-menu h2{
     color: var(--main-color);
     font-size: 70px;
     font-weight: 500;
     font-family: var(--font-caveat);
 }
-#offer p{
+#offer p , #all-menu p{
     color: rgb(185, 185, 185);
     font-size: 20px;
     line-height: 24px;
@@ -246,7 +247,7 @@ color: #fff;
     cursor: pointer;
 }
 
-.offer-left h4{
+.offer-left h4 , .menu-item h4{
 font-size: 53px;
 font-weight: 500;
 color: var(--main-color);
@@ -269,12 +270,15 @@ font-family: var(--font-caveat);
     background-size: cover;
 }
 
-.offer-left:hover{
+.offer-left:hover , .menu-item:hover{
     transform: rotate(-4deg) scale(0.9);
     -webkit-transform: rotate(-4deg) scale(0.9);
     -moz-transform: rotate(-4deg) scale(0.9);
     -ms-transform: rotate(-4deg) scale(0.9);
     -o-transform: rotate(-4deg) scale(0.9);
+}
+#offer .primaryColor , #all-menu .primaryColor{
+    font-weight: bold;
 }
 
 /* cuisine CSS */
@@ -324,7 +328,7 @@ color: var(--main-color);
 letter-spacing: 10px;
 }
 
-.cuisine .btn{
+.cuisine .btn , .menu-showcase .btn{
         color: #000;
         font-weight: 500;
         animation: upDown 1000ms ease-in-out infinite alternate;
@@ -420,5 +424,55 @@ footer .footer-top p{
     padding-bottom: 16px;
 }
 
+/*  Menu pages CSS */
+#all-menu .row{
+    gap: 115px;
+}
 
+.menu-item{
+    margin: 90px 0px;
+    width: 405px;
+    height: 380px;
+    background: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url(../image/menu-01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s linear;
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -ms-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    cursor: pointer;
+}
 
+.drink-item{
+    background: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url(../image/drinks.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.desert-item{
+    background: linear-gradient(rgba(0, 0, 0, 0.600), rgba(0, 0, 0, 0.600)), url(../image/desertitem.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.menu-showcase img{
+    width: 95%;
+    box-shadow: 4px 4px 3px var(--main-color);
+    border: 1px solid var(--main-color);
+}
+
+.menu-showcase h3{
+    font-weight: 500;
+    line-height: 84px;
+    font-size: 70px;
+    font-family: var(--font-caveat);
+    color: #E3AA11;
+    margin-bottom: 16px;
+}
