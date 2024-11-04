@@ -34,7 +34,7 @@ color: #E3AA11;
   font-size: 23px;
 }
 
-#welcome ,#offer,footer ,#all-menu , .menu-showcase{
+#welcome ,#offer,footer ,#all-menu , .menu-showcase {
     text-align: center;
     padding: 0 11px;
 }
@@ -74,6 +74,29 @@ color: #E3AA11;
 }
 .gallery-items{
     grid-template-columns: repeat(1,1fr);
+}
+.contact-sec {
+    padding: 50px 0px;
+}
+.contact-left {
+    padding: 45px;
+}
+.contact-left h2 {
+    font-size: 24px;
+}
+
+.contact-left .top-div p {
+    font-size: 21px;
+
+}
+
+.contact-left h3 {
+    font-size: 21px;
+}
+
+.contact-right{
+margin-left: 0px;
+    padding: 15px 11px;
 }
 
 }
@@ -144,7 +167,13 @@ color: #E3AA11;
     grid-template-columns: repeat(1,1fr);
 }
 
-
+.contact-sec {
+    padding: 50px 0px;
+}
+.contact-right{
+    margin-left: 0px;
+        padding: 15px 11px;
+    }
   }
 
   /* medioum device start */
@@ -208,6 +237,14 @@ color: #E3AA11;
 .gallery-items{
     grid-template-columns: repeat(2,1fr);
 }
+
+.contact-sec {
+    padding: 50px 0px;
+}
+.contact-right{
+    margin-left: 0px;
+        padding: 15px 11px;
+    }
 
   }
 
